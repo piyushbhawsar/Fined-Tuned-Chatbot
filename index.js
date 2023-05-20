@@ -71,7 +71,7 @@ document.addEventListener('submit', (e) => {
 }) 
 
 async function fetchReply(){
-    const url = 'https://https://fine-tuned-chatbot.netlify.app/.netlify/functions/fetchAI'
+    const url = 'https://https://fine-tuned-chatbot.netlify.app/.netlify/functions/fetchGPT'
     
     const response = await fetch(url, {
         method: 'POST',
